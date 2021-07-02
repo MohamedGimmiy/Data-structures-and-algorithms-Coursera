@@ -1,0 +1,33 @@
+﻿Debugging c++ programs 
+
+
+https://cets.seas.upenn.edu/answers/gcc.html
+https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+
+
+do not forget when compiling c++ files to put -g for debugging purposes
+
+
+Commands :
+
+watch variable // watch variable
+continue c
+print variable  p var // print stored variable
+next  n // step
+run  r // run program
+layout next // show source code
+break main, line, function_name b main  // make a break point
+
+
+example of debugging command sequence
+
+gdb a.out
+layout next
+b main
+r
+n
+c
+watch I
+print var
+quit
+
