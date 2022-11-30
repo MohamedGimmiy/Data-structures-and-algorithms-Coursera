@@ -1,0 +1,5 @@
+References:
+
+https://www.coursera.org/learn/algorithms-on-strings/supplement/PDdEB/trie-construction-pseudocode
+
+https://www.geeksforgeeks.org/trie-insert-and-search/
